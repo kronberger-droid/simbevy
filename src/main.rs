@@ -11,8 +11,7 @@ struct Animation {
     looped: bool,
 }
 
-/// Simple timer wrapper for animation updates
-#[derive(Component, Deref, DerefMut)]
+/// Simple timer wrapper for animation updates #[derive(Component, Deref, DerefMut)]
 struct AnimationTimer(Timer);
 
 fn main() {
